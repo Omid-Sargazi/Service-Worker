@@ -71,7 +71,18 @@ const APP = {
           });
       });
   },
-  deleteCache() {},
+  deleteCache() {
+    // caches
+    //   .open(this.cacheName)
+    //   .then((cache) => {
+    //     let url = "../image/3.jpg?id=three";
+    //     cache.delete(url);
+    //   })
+    //   .then((isGone) => {
+    //     console.log("ok");
+    //   });
+    caches.delete(APP.cacheName);
+  },
 };
 
 document.addEventListener("DOMContentLoaded", APP.init);
