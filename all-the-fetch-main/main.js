@@ -50,5 +50,6 @@ access-control-allow-method
 10. Aborting a fetch request with an AbortController
 Bonus: Measuring Download progress
 **/
-import { getData } from "./basic-fetch.js";
+// import { getData } from "./basic-fetch.js";
+import { getData } from "./2-try-async.js";
 getData();
