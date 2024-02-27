@@ -2,7 +2,7 @@ const APP = {
   SW: null,
   init() {
     document.querySelector("h2").addEventListener("click", APP.addImage);
-    APP.registerSW();
+    // APP.registerSW();
   },
   registerSW() {
     if ("serviceWorker" in navigator) {

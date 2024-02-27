@@ -2,7 +2,7 @@ const APP = {
   cacheName: "CacheTest1",
   SW: null,
   init() {
-    APP.startCaching();
+    // APP.startCaching();
     document.querySelector("h2").addEventListener("click", APP.deleteCache);
   },
   startCaching() {
